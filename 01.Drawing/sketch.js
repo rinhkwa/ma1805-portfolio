@@ -30,7 +30,7 @@ function draw() {
   
   beginShape();  
   vertex(320, 200);  
-  vertex(360, 100);  
+  vertex(360, 120);  
   vertex(410, 200);  
 
   endShape(CLOSE);  
@@ -64,11 +64,19 @@ function draw() {
 
   endShape(CLOSE);  
 
-  
+
+  endShape(CLOSE);  
+
+  fill(255, 200, 200);
+  noStroke();
+  beginShape();  
+  vertex(480, 30);  
+  vertex(380, 85);  
+  vertex(455, 150);  
+
+  endShape(CLOSE);  
 
 
-
-  
 fill(255, 220, 240);
   noStroke();
   beginShape();  
